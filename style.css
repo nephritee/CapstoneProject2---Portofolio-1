@@ -1,0 +1,162 @@
+body {
+    text-align: center;
+    margin: 0px;
+    width: 100%;
+}
+
+p {
+    font-size: 1.75rem
+}
+
+h1 {
+    font-size: 5rem;
+    font-family: "Caveat", cursive;
+    color: #4ED7F1;
+}
+
+h2 {
+    font-size: 2.5rem;
+    font-family: "Cabin", cursive;
+    color: #4ED7F1;
+}
+
+h3 {
+    font-size: 1.75rem;
+    font-weight: bolder;
+    color: #4E71FF;
+}
+
+hr {
+    display: block;
+    width: 4%;
+    margin: 100px auto;
+    border: dotted #F5EFFF;
+}
+
+#first-cloud {
+    position: absolute;
+    height: 80px;
+    top: 150px;
+    left: 500px;
+}
+
+#second-cloud {
+    position: absolute;
+    height: 80px;
+    top: 200px;
+    right: 500px;
+}
+
+#third-cloud {
+    position: absolute;
+    height: 80px;
+    top: 310px;
+    left: 320px;
+}
+
+#forth-cloud {
+    position: absolute;
+    height: 50px;
+    top: 330px;
+    left: 450px;
+}
+
+#fifth-cloud {
+    position: absolute;
+    height: 80px;
+    right: 400px;
+    top: 450px;
+}
+
+#six-cloud {
+    position: absolute;
+    height: 80px;
+    top: 600px;
+    left: 550px;
+}
+
+.top-container {
+    display: block;
+    background-color: #D4F6FF;
+    height: 792px;
+    padding-top: 100px;
+}
+
+.title-text {
+    display: block;
+}
+
+.text {
+    text-align: center;
+    align-items: center;
+}
+
+.mountain {
+    position: absolute;
+    left: 35%;
+    height: 500px;
+}
+
+.avatar {
+    border-radius: 50%;
+    height: 175px;
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+
+.intro {
+    width: 25%;
+    margin: auto;
+}
+
+.my-skills {
+    margin-top: 200px;
+    margin-bottom: 100px;
+}
+
+.cat-three {
+    border: 5px solid black;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: repeat(3, 1fr);
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    row-gap: 100px;
+    column-gap: 100px;
+    text-align: left;
+}
+
+.btn {
+    background-color: #08C2FF;
+    border: 5px solid #08C2FF;
+    border-radius: 8px;
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px 10px 20px;
+}
+
+.contact-text {
+    width: 35%;
+    margin: 40px auto 60px;
+}
+
+.footer {
+    background-color: #D4F6FF;
+    padding: 40px 0 50px;
+}
+
+.footer-link {
+    color: #4ED7F1;
+    font-size: 1.5rem;
+    margin: 10px 20px 10px;
+}
+
+.footer-text {
+    color: black;
+    font-size: 1rem;
+}
